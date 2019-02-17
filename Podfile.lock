@@ -1,0 +1,22 @@
+PODS:
+  - KnobControl (1.0.0)
+
+DEPENDENCIES:
+  - KnobControl (from `https://github.com/miguelrc86/leKnobControl`, tag `1.0.0`)
+
+EXTERNAL SOURCES:
+  KnobControl:
+    :git: https://github.com/miguelrc86/leKnobControl
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  KnobControl:
+    :git: https://github.com/miguelrc86/leKnobControl
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  KnobControl: 9fd566bb165945859194302d1accf20898feabbc
+
+PODFILE CHECKSUM: 86e3f6ba6e05bd562e6c7b9ac5f4b290bca634be
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10BB63129CD5E61AEC0D755D200D735F /* Pods-KnobShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 085C5ABB0604B621400444AC47722D55 /* Pods-KnobShowcase-dummy.m */; };
+		1CAF4A64FF36E078B2B0C8374F3F9FC5 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB599B767B3430DAB8961D60695525F /* RotationGestureRecognizer.swift */; };
+		21989EA72DB12B79B909F70326A4CCEB /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE257FAC71A2F06B308F1D004B17A41 /* KnobRenderer.swift */; };
+		27E5670FBD44DC0E38DC7983D2120A4B /* KnobControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 294254CBE111C6543CEAA40BECE45FE9 /* KnobControl-dummy.m */; };
+		478E18C70AE3249777E017104899D262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4B59646DBC8C2336F30B5908FE2483D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		55C1CECA0E7BAA22CBBD54C6C877ADEC /* Pods-KnobShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DB02CF527970D15C615A5F566D307F /* Pods-KnobShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F6BD61BC9CE0B9095B6A4773C7E5E2 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18946193FAE92D713E358E834D5C9733 /* Knob.swift */; };
+		74BA2638007EF2483C29D3C5577200EA /* KnobControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BC409E8B930B8BCD2B1FA107FD3AAA /* KnobControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9946BE581A751C4226F39652D45B08FB /* KnobControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3454908CA89418E36209C7C9E9B5D4E3 /* KnobControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B275629A1B7D6293FD622BA1682C8C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C520D77D17F2EC469948C30F0DA19CB;
+			remoteInfo = KnobControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085C5ABB0604B621400444AC47722D55 /* Pods-KnobShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KnobShowcase-dummy.m"; sourceTree = "<group>"; };
+		18946193FAE92D713E358E834D5C9733 /* Knob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Knob.swift; path = KnobControl/Knob.swift; sourceTree = "<group>"; };
+		1AC76837214689BD907641A998E364FB /* KnobControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KnobControl.modulemap; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25454E8A53B9155802DD35408873E4E2 /* Pods-KnobShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KnobShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
+		294254CBE111C6543CEAA40BECE45FE9 /* KnobControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KnobControl-dummy.m"; sourceTree = "<group>"; };
+		2C4186F6CE58E924C51A3879F217A1F9 /* Pods-KnobShowcase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KnobShowcase-frameworks.sh"; sourceTree = "<group>"; };
+		2D7AF6528BC26F67D43C4BA1A5ED2002 /* Pods_KnobShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KnobShowcase.framework; path = "Pods-KnobShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3454908CA89418E36209C7C9E9B5D4E3 /* KnobControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-umbrella.h"; sourceTree = "<group>"; };
+		4396BED8756918E232B5A6564F57B407 /* Pods-KnobShowcase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KnobShowcase-resources.sh"; sourceTree = "<group>"; };
+		4DC4CB74CC3491E271D58870A8FCB04B /* KnobControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KnobControl.xcconfig; sourceTree = "<group>"; };
+		588D87A55EDDB0797CD3EFCFD1DF0A4F /* KnobControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KnobControl.framework; path = KnobControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E73D24AB98E4198BC7355EAE10F8507 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BC409E8B930B8BCD2B1FA107FD3AAA /* KnobControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KnobControl.h; path = KnobControl/KnobControl.h; sourceTree = "<group>"; };
+		7C4FF6F0911C8897C209FB78893DD570 /* Pods-KnobShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KnobShowcase.debug.xcconfig"; sourceTree = "<group>"; };
+		81E5CEEE3FB85D81F04E54E7D0CB00A6 /* Pods-KnobShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KnobShowcase.modulemap"; sourceTree = "<group>"; };
+		8CB599B767B3430DAB8961D60695525F /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationGestureRecognizer.swift; path = KnobControl/RotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		93275042BEEB2D7B2029CD780655F76B /* Pods-KnobShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KnobShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		9429D4317BC26C3DDF3E8DFDB7B7ACED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE257FAC71A2F06B308F1D004B17A41 /* KnobRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KnobRenderer.swift; path = KnobControl/KnobRenderer.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0E63DB43ED39996FF91D40A7840B754 /* Pods-KnobShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KnobShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1DB02CF527970D15C615A5F566D307F /* Pods-KnobShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KnobShowcase-umbrella.h"; sourceTree = "<group>"; };
+		FA726AE595BA074F6EA2E85AC42ADEEC /* KnobControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KnobControl-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB70F1966BF0DBDED92CB86EF8B7AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B59646DBC8C2336F30B5908FE2483D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B75EFCE9FA9B900294A34944E4C771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478E18C70AE3249777E017104899D262 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063A82EF576005780E71BD560D46144E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7662E452DE6F8842BCC9A68702209C66 /* KnobControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1FFD9FB63982BF628AEA1964DCDA493B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E73D24AB98E4198BC7355EAE10F8507 /* Info.plist */,
+				1AC76837214689BD907641A998E364FB /* KnobControl.modulemap */,
+				4DC4CB74CC3491E271D58870A8FCB04B /* KnobControl.xcconfig */,
+				294254CBE111C6543CEAA40BECE45FE9 /* KnobControl-dummy.m */,
+				FA726AE595BA074F6EA2E85AC42ADEEC /* KnobControl-prefix.pch */,
+				3454908CA89418E36209C7C9E9B5D4E3 /* KnobControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KnobControl";
+			sourceTree = "<group>";
+		};
+		25CF91E38EC18AD82A1FB211EA8C1B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588D87A55EDDB0797CD3EFCFD1DF0A4F /* KnobControl.framework */,
+				2D7AF6528BC26F67D43C4BA1A5ED2002 /* Pods_KnobShowcase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F170D2EFF398B7E1676D0AFA42FF21D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E035558A88CC2C3A91A18A7109099C74 /* Pods-KnobShowcase */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7662E452DE6F8842BCC9A68702209C66 /* KnobControl */ = {
+			isa = PBXGroup;
+			children = (
+				18946193FAE92D713E358E834D5C9733 /* Knob.swift */,
+				65BC409E8B930B8BCD2B1FA107FD3AAA /* KnobControl.h */,
+				BDE257FAC71A2F06B308F1D004B17A41 /* KnobRenderer.swift */,
+				8CB599B767B3430DAB8961D60695525F /* RotationGestureRecognizer.swift */,
+				1FFD9FB63982BF628AEA1964DCDA493B /* Support Files */,
+			);
+			name = KnobControl;
+			path = KnobControl;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				063A82EF576005780E71BD560D46144E /* Pods */,
+				25CF91E38EC18AD82A1FB211EA8C1B3B /* Products */,
+				4F170D2EFF398B7E1676D0AFA42FF21D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E035558A88CC2C3A91A18A7109099C74 /* Pods-KnobShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				9429D4317BC26C3DDF3E8DFDB7B7ACED /* Info.plist */,
+				81E5CEEE3FB85D81F04E54E7D0CB00A6 /* Pods-KnobShowcase.modulemap */,
+				F0E63DB43ED39996FF91D40A7840B754 /* Pods-KnobShowcase-acknowledgements.markdown */,
+				25454E8A53B9155802DD35408873E4E2 /* Pods-KnobShowcase-acknowledgements.plist */,
+				085C5ABB0604B621400444AC47722D55 /* Pods-KnobShowcase-dummy.m */,
+				2C4186F6CE58E924C51A3879F217A1F9 /* Pods-KnobShowcase-frameworks.sh */,
+				4396BED8756918E232B5A6564F57B407 /* Pods-KnobShowcase-resources.sh */,
+				F1DB02CF527970D15C615A5F566D307F /* Pods-KnobShowcase-umbrella.h */,
+				7C4FF6F0911C8897C209FB78893DD570 /* Pods-KnobShowcase.debug.xcconfig */,
+				93275042BEEB2D7B2029CD780655F76B /* Pods-KnobShowcase.release.xcconfig */,
+			);
+			name = "Pods-KnobShowcase";
+			path = "Target Support Files/Pods-KnobShowcase";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		040C79E0F4D66B16AAFEB13EDEE8F3F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C1CECA0E7BAA22CBBD54C6C877ADEC /* Pods-KnobShowcase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC853B254F64590CB4FA5354AA478BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9946BE581A751C4226F39652D45B08FB /* KnobControl-umbrella.h in Headers */,
+				74BA2638007EF2483C29D3C5577200EA /* KnobControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		364265ADE13E9A1D354BF62BB15A56A2 /* Pods-KnobShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36370CAEDE63A598529915DCEFA8F3D8 /* Build configuration list for PBXNativeTarget "Pods-KnobShowcase" */;
+			buildPhases = (
+				040C79E0F4D66B16AAFEB13EDEE8F3F6 /* Headers */,
+				F5D3C72C69E6BBC7A375831D63329D70 /* Sources */,
+				A4B75EFCE9FA9B900294A34944E4C771 /* Frameworks */,
+				A300F56EF182CD26B25BA3019E39F7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D2A9361B64EE45413EB210A01EABC4E /* PBXTargetDependency */,
+			);
+			name = "Pods-KnobShowcase";
+			productName = "Pods-KnobShowcase";
+			productReference = 2D7AF6528BC26F67D43C4BA1A5ED2002 /* Pods_KnobShowcase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C520D77D17F2EC469948C30F0DA19CB /* KnobControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BFE9E5D476B16710F9FA73288E461A /* Build configuration list for PBXNativeTarget "KnobControl" */;
+			buildPhases = (
+				EAC853B254F64590CB4FA5354AA478BA /* Headers */,
+				3E5A2247749FC7DF217A236674C18BC7 /* Sources */,
+				8BB70F1966BF0DBDED92CB86EF8B7AAB /* Frameworks */,
+				D36178D67573FF737A9A50A968FD8043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnobControl;
+			productName = KnobControl;
+			productReference = 588D87A55EDDB0797CD3EFCFD1DF0A4F /* KnobControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 25CF91E38EC18AD82A1FB211EA8C1B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C520D77D17F2EC469948C30F0DA19CB /* KnobControl */,
+				364265ADE13E9A1D354BF62BB15A56A2 /* Pods-KnobShowcase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A300F56EF182CD26B25BA3019E39F7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36178D67573FF737A9A50A968FD8043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E5A2247749FC7DF217A236674C18BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F6BD61BC9CE0B9095B6A4773C7E5E2 /* Knob.swift in Sources */,
+				27E5670FBD44DC0E38DC7983D2120A4B /* KnobControl-dummy.m in Sources */,
+				21989EA72DB12B79B909F70326A4CCEB /* KnobRenderer.swift in Sources */,
+				1CAF4A64FF36E078B2B0C8374F3F9FC5 /* RotationGestureRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D3C72C69E6BBC7A375831D63329D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BB63129CD5E61AEC0D755D200D735F /* Pods-KnobShowcase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D2A9361B64EE45413EB210A01EABC4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KnobControl;
+			target = 8C520D77D17F2EC469948C30F0DA19CB /* KnobControl */;
+			targetProxy = B275629A1B7D6293FD622BA1682C8C14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D27FAF851E5E082D001A67E06063700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC4CB74CC3491E271D58870A8FCB04B /* KnobControl.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KnobControl/KnobControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KnobControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KnobControl/KnobControl.modulemap";
+				PRODUCT_MODULE_NAME = KnobControl;
+				PRODUCT_NAME = KnobControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A5055A82D39503A6BDF809F8B9DA5718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4FF6F0911C8897C209FB78893DD570 /* Pods-KnobShowcase.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KnobShowcase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KnobShowcase/Pods-KnobShowcase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF9ED53DED97677C9AB882FACE8B9802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DC4CB74CC3491E271D58870A8FCB04B /* KnobControl.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KnobControl/KnobControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KnobControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KnobControl/KnobControl.modulemap";
+				PRODUCT_MODULE_NAME = KnobControl;
+				PRODUCT_NAME = KnobControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9E368E75CF35EE7457FF215A61ED2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93275042BEEB2D7B2029CD780655F76B /* Pods-KnobShowcase.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KnobShowcase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KnobShowcase/Pods-KnobShowcase.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36370CAEDE63A598529915DCEFA8F3D8 /* Build configuration list for PBXNativeTarget "Pods-KnobShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5055A82D39503A6BDF809F8B9DA5718 /* Debug */,
+				F9E368E75CF35EE7457FF215A61ED2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BFE9E5D476B16710F9FA73288E461A /* Build configuration list for PBXNativeTarget "KnobControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D27FAF851E5E082D001A67E06063700 /* Debug */,
+				CF9ED53DED97677C9AB882FACE8B9802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
